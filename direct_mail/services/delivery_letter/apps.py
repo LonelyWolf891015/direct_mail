@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class DeliveryLetterConfig(AppConfig):
-    name = 'delivery_letter'
+    name = 'direct_mail.services.delivery_letter'

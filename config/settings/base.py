@@ -42,7 +42,7 @@ DJANGO_APPS = [
     # 'django.contrib.humanize',
 
     # Admin
-    'treebeard'
+    'treebeard',
     'django.contrib.admin',
 ]
 THIRD_PARTY_APPS = [
@@ -58,6 +58,7 @@ LOCAL_APPS = [
     'direct_mail.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'direct_mail.audience.apps.AudienceConfig',
+    'direct_mail.services.delivery_letter.apps.DeliveryLetterConfig',
 
 ]
 
